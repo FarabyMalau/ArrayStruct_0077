@@ -24,3 +24,17 @@ int main(){
     cin.ignore(); //menambahkan ignore untuk mengabaikan cin
     cout << "Masukkan Nama = ";
     getline(cin, mhs.nama); //mengganti cin menjadi getline agar bisa input data yang mengandung spasi
+    cout << "Masukkan Alamat Desa = ";
+    cin >> mhs.alamat.desa;
+    cout << "Masukkan Alamat Kota = ";
+    cin >> mhs.alamat.kota;
+
+    cout << endl;
+    //Display Data Mahasiswa
+    cout << "Data Mahasiswa" << endl;
+    
+    cout << "NIM = " << mhs.nim << endl;
+    cout << "Nama = " << mhs.nama << endl;
+    cout << "Alamat Desa = " << mhs.alamat.desa << endl;
+    cout << "Alamat Kota = " << mhs.alamat.kota << endl;
+}
