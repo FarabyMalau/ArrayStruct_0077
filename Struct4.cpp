@@ -34,3 +34,12 @@ int main(){
     cout << endl;
     //Display Data Mahasiswa
     cout << "Data Mahasiswa" << endl;
+
+    for (int i = 0; i < 2; i++) { //perulangan untuk display
+        cout << "Data Mahasiswa ke-" << i+1 << endl;
+        cout << "NIM = " << mhs[i].nim << endl;
+        cout << "Nama = " << mhs[i].nama << endl;
+        cout << "Alamat Desa = " << mhs[i].alamat.desa << endl;
+        cout << "Alamat Kota = " << mhs[i].alamat.kota << endl;
+        }
+}

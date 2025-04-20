@@ -25,3 +25,4 @@ int main(){
         cout << "Data Mahasiswa ke-" << i+1 << " = " << nama[i]
         << endl;
     }
+}
